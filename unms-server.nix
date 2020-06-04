@@ -35,7 +35,7 @@ let
 
   nodeHeaders = fetchurl {
     url = "https://nodejs.org/download/release/v${nodejs.version}/node-v${nodejs.version}-headers.tar.gz";
-    sha256 = "0bjnkf6xmpzwzd02x8y56165flnigriazi455azvydi80xlyx5wy";
+    sha256 = "1df3yhlwlvai0m9kvjyknjg11hnw0kj0rnhyzbwvsfjnmr6z8r76";
   };
 
   unms-server = yarn2nix.mkYarnPackage rec {
